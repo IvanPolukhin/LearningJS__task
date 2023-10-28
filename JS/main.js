@@ -91,11 +91,60 @@
 //     imput = prompt('ввести число, большее 100.');
 // } while (imput <= 100 && imput);
 
-let n = 10;
+// let browser = prompt('Fill in the box');
 
-for (i = 2; i <= 10; i++) {
-    if (i % 2 == 0) {
-        console.log(i);
-    }
+// if (browser == 'Edge') {
+//     alert("You've got the Edge!");
+// } else if (browser == 'Chrome' || browser == 'Firefox' || browser == 'Safari' || browser == 'Opera') {
+//     alert('Okay we support these browsers too');
+// } else {
+//     alert('We hope that this page looks ok!');
+// }
 
-}
+// const number = +prompt('Введите число между 0 и 3', '');
+
+// switch (number) {
+//     case 0:
+//         alert('Вы ввели число 0');
+//         break;
+
+//     case 1:
+//         alert('Вы ввели число 1');
+//         break;
+
+//     case 2:
+//     case 3:
+//         alert('Вы ввели число 2, а может и 3');
+//         break;
+// }
+
+// function checkAge(age) {
+//     return (age > 18) ? true : confirm('Родители разрешили ?');
+// }
+// checkAge();
+
+
+
+// function min(a, b) {
+//     if (a > b) {
+//         return alert(b);
+//     } else {
+//         return alert(a);
+//     }
+// }
+
+// function min(a, b) {
+//     return alert(a > b ? b : a);
+// }
+
+// min(2, 5);
+// min(3, -1);
+// min(1, 1);
+
+// pow(3, 2);
+// pow(3, 3);
+// pow(1, 100);
+
+// function pow(x, n) {
+//     return alert(x**n);
+// }
