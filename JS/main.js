@@ -148,3 +148,17 @@
 // function pow(x, n) {
 //     return alert(x**n);
 // }
+
+let ask = (question, yes, no) => {
+    if (confirm(question)) {
+        yes();
+    } else {
+        no();
+    }
+
+};
+    
+ask(
+    "Вы согласны?",
+    () => alert("Вы согласились."),
+    () => alert("Вы отменили выполнение."));
