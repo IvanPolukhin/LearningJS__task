@@ -149,16 +149,49 @@
 //     return alert(x**n);
 // }
 
-let ask = (question, yes, no) => {
-    if (confirm(question)) {
-        yes();
-    } else {
-        no();
-    }
+// let ask = (question, yes, no) => {
+//     if (confirm(question)) {
+//         yes();
+//     } else {
+//         no();
+//     }
 
-};
-    
-ask(
-    "Вы согласны?",
-    () => alert("Вы согласились."),
-    () => alert("Вы отменили выполнение."));
+// };
+
+// ask(
+//     "Вы согласны?",
+//     () => alert("Вы согласились."),
+//     () => alert("Вы отменили выполнение."));
+
+// for (let elem of document.body.ul) {
+//     alert(elem)
+// }
+
+// alert(document.body.children[0]);
+// alert(document.body.children[1]);
+// alert(document.body.children[1].lastElementChild);
+
+// const myArray = [1, 2, 3, 4, 5];
+
+// for (const element of myArray) {
+//   console.log(element);
+// }
+
+let table = document.getSelectorbyid('age-table');
+
+for (imput of imputs) {
+    alert(imput.value + ": " + imput.checked);
+}
+
+let labels = document.querySelectorAll('#age-table label');
+
+for (label of labels) {
+    alert(label);
+}
+
+document.querySelector('#age-table #age-list');
+
+document.querySelector('form[name="search"]');
+
+document.querySelectorAll('input')[0];
+document.querySelectorAll('input')[1];
